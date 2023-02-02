@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function NavBar() {
@@ -7,10 +8,12 @@ export default function NavBar() {
         <nav className="flex items-center justify-between" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <img
+              <Image
                 className="h-8"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
+                src="https://tailwindui.com/img/logos/mark.svg"
+                alt="Tailwind"
+                width={30}
+                height={30}
               />
             </a>
           </div>

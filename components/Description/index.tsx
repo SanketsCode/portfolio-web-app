@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Description() {
@@ -6,9 +7,14 @@ export default function Description() {
       <div className="relative px-6 lg:px-8">
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="mb-8 flex justify-center bg-[url('/img/hero-pattern.svg')]">
-            <img
+            <Image
+              alt="logo"
               className="h-40 w-40 overflow-clip rounded-full drop-shadow-2xl"
-              src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg"
+              src={
+                "https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg"
+              }
+              width={200}
+              height={200}
             />
           </div>
           <div className="text-center">
