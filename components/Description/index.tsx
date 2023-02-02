@@ -19,7 +19,7 @@ export default function Description() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Hi I'm Sanket Sabale
+              Hi I am Sanket Sabale
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               I am pursuing my BE in Computer Engineering, I am Looking for Job
